@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/idalin.iml" filepath="$PROJECT_DIR$/idalin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springHelloWorld/springHelloWorld.iml" filepath="$PROJECT_DIR$/springHelloWorld/springHelloWorld.iml" />
+    </modules>
+  </component>
+</project>
