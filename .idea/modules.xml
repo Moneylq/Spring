@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring_jdbcTemplate/Spring_jdbcTemplate.iml" filepath="$PROJECT_DIR$/Spring_jdbcTemplate/Spring_jdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/idalin.iml" filepath="$PROJECT_DIR$/idalin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springHelloWorld/springHelloWorld.iml" filepath="$PROJECT_DIR$/springHelloWorld/springHelloWorld.iml" />
     </modules>
