@@ -1,4 +1,4 @@
-package top.idalin.top.idalin.test;
+package top.idalin.test;
 
 
 import top.idalin.bean.Employee;
@@ -30,7 +30,7 @@ public class Spring_TemplateTest {
     @Test
     public void testQueryEmployee() {
         EmployeeService employeeService = (EmployeeService) ioc.getBean("employeeService");
-        Employee employee = employeeService.getEmployee(6);
+        Employee employee = employeeService.getEmployee(2);
         System.out.println(employee);
     }
     // 测试增加一个员工的方法
@@ -55,7 +55,7 @@ public class Spring_TemplateTest {
     public void testUpdateEmployee() {
         EmployeeService employeeService = (EmployeeService) ioc.getBean("employeeService");
         Employee employee = new Employee();
-        employee.setId(6);
+        employee.setId(1);
         employee.setLastName("admin");
         employee.setDeptId(1);
         employeeService.updateEmployee(employee);
